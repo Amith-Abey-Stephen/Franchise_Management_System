@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 FlowCMS • Elite Franchise Interface (Frontend)
 
-## Getting Started
+**FlowCMS Frontend** is a high-performance, enterprise-grade command interface designed for scale. Built with a focus on speed and premium aesthetics, it provides a centralized dashboard for administrators, franchisees, and operational nodes.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Premium Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Live Activity Telemetry**: A real-time notification engine tracking regional node events with interactive Acknowledge/Dismiss controls.
+- **Audit Registry Dashboard**: A comprehensive chronicle of historical network activities, enabling administrators to investigate every operation across the mesh.
+- **Operator Identity Management**: Personalized Account Settings dashboard for updating operator names and secure nexus keys (passwords).
+- **Responsive Mesh Architecture**: Fully optimized for mobile-first management, ensuring that complex network registries remain legible on any device.
+- **Predictive Analytics**: Real-time sales tracking and visual trend analysis powered by `recharts`.
+- **Hyper-POS System**: Streamlined point-of-sale interface with searchable inventory and animated checkout.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Core**: [Next.js](https://nextjs.org/) (App Router Architecture)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) with custom design tokens for glassmorphism.
+- **Visuals**: [Lucide React](https://lucide.dev/) & [Framer Motion](https://www.framer.com/motion/).
+- **Data Engine**: [Axios](https://axios-http.com/) for regional API orchestration.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Quick Start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Ensure you have Node.js installed. From this directory:
 
-## Deploy on Vercel
+1.  **Install Mesh Dependencies**:
+    ```bash
+    npm install --legacy-peer-deps
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2.  **Telemetry Sync**:
+    Create a `.env.local` pointing to your regional backend:
+    ```env
+    NEXT_PUBLIC_API_URL=http://localhost:5000/api
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3.  **Activate Dashboard**:
+    ```bash
+    npm run dev
+    ```
+
+Navigate to `http://localhost:3000` to access the command center.
+
+**FlowCMS: Infrastructure for Scale.**
