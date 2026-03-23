@@ -46,7 +46,7 @@ export default function LogsPage() {
             accessor: (row: any) => (
                 <div className="flex flex-col">
                     <span className="text-[10px] font-black text-gray-700 dark:text-gray-300 uppercase italic leading-none mb-1">{row.user?.name}</span>
-                    <Badge variant="outline" className="text-[8px] bg-gray-50 dark:bg-white/5 border-none px-1.5 py-0.5 mt-1 font-black uppercase tracking-widest">{row.user?.role}</Badge>
+                    <Badge variant="default" className="text-[8px] bg-gray-50 dark:bg-white/5 border-none px-1.5 py-0.5 mt-1 font-black uppercase tracking-widest">{row.user?.role}</Badge>
                 </div>
             )
         },
